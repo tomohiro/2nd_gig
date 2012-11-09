@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require '2nd_gig'
+
+opts = {
+  :port  => 16705,
+  :host  => 'localhost',
+  :log   => STDOUT,
+}
+
+OptionParser.new do |parser|
+  parser.instance_eval do
+    self.banner  = <<-EOB.gsub(/^\t+/, '')
+        Usage: #{$0} [opts]
+
+    EOB
+
+    separator ""
+
+    separator "Options:"
+    on('-p', "--port [PORT=#{opts[:port]}]", 'port number to listen') do |port|
+      opts[:port] = port
+    end
+
+    on('-h', "--host [HOST=#{opts[:host]}]", 'host name or IP address to listen') do |host|
+      opts[:host] = host
+    end
+
+    on('-l', '--log LOG', 'log file') do |log|
+      opts[:log] = log
+    end
+
+    parse!(ARGV)
+  end
+end
+
+opts[:logger] = Logger.new(opts[:log], 'daily')
+opts[:logger].level = Logger::DEBUG
+
+Net::IRC::Server.new(opts[:host], opts[:port], SecondGig::GitHubIrcGateway, opts).start

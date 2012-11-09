@@ -1,0 +1,3 @@
+module SecondGig
+  VERSION = '0.0.1'
+end

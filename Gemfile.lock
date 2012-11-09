@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    2nd_gig (0.0.1)
+      net-irc
+      nokogiri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    net-irc (0.0.9)
+    nokogiri (1.5.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  2nd_gig!
