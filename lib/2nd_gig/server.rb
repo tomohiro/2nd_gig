@@ -67,6 +67,7 @@ module SecondGig
       post(@nick, PART, channel)
 
       if @monitor_threads.fetch(channel, false)
+        @log.info("#{channel} thread kill...")
         @monitor_threads[channel].kill
       end
     end
