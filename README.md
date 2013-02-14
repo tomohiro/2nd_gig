@@ -53,7 +53,7 @@ Password  | GitHub news feed token
 
 ### Channels
 
-Channel    | Description                    | Optional
+Channel    | Description                    | Auto join
 ---------- | ------------------------------ | ---------
 `#github`  | News feed timeline             | yes
 `#public`  | Public timeline                | no
