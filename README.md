@@ -36,13 +36,27 @@ Usage
 $ bundle exec 2nd_gig
 ```
 
+### Connect the 2nd GIG
+
+1. Launch a IRC client.(Limechat, irssi, weechat...)
+2. Connect the server(option is below)
+3. Join optional channel if you wanted.
+
+#### Server options
+
+option    | value
+--------- | -----
+port      | 16705
+Real name | GitHub username
+Password  | GitHub news feed token
+
 
 ### Channels
 
-Channel   | Description        | Optional
---------- | ------------------ | ----
-`#github` | Newsfeed timeline  | yes
-`#public` | Public timeline    | no
+Channel   | Description         | Optional
+--------- | ------------------- | ----
+`#github` | News feed timeline  | yes
+`#public` | Public timeline     | no
 
 
 LICENSE
