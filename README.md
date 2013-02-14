@@ -7,6 +7,7 @@ Alternative GitHub IRC Gateway
 [![Stillmaintained](http://stillmaintained.com/Tomohiro/2nd_gig.png)](http://stillmaintained.com/Tomohiro/2nd_gig)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/Tomohiro/2nd_gig)
 
+![2nd GIG screenshot](screenshot.png)
 
 Requirements
 -------------------------------------------------------------------------------
@@ -38,10 +39,10 @@ $ bundle exec 2nd_gig
 
 ### Channels
 
-Channel   | Description               | Optional
---------- | ------------------------- | ----
-`#github` | GitHub Newsfeed timeline  | yes
-`#public` | Public timeline           | no
+Channel   | Description        | Optional
+--------- | ------------------ | ----
+`#github` | Newsfeed timeline  | yes
+`#public` | Public timeline    | no
 
 
 LICENSE
