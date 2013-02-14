@@ -49,7 +49,6 @@ module SecondGig
       channel = main_channel[:channel]
       uri     = main_channel[:uri]
       post(@nick, JOIN, channel)
-      @last_monitored[channel] = Time.now
       @monitor_threads[channel] = start_monitoring(channel, uri)
     end
 
@@ -82,6 +81,7 @@ module SecondGig
     private
       def start_monitoring(channel, uri)
         @last_monitored[channel] = Time.now
+
         Thread.start do
           loop do
             begin
