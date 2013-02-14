@@ -1,3 +1,4 @@
+require 'rubygems'
 
 module SecondGig
   require '2nd_gig/version'
