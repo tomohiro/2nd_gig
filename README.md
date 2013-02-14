@@ -5,7 +5,7 @@ Alternative GitHub IRC Gateway
 
 [![Dependency Status](https://gemnasium.com/Tomohiro/2nd_gig.png)](https://gemnasium.com/Tomohiro/2nd_gig)
 [![Stillmaintained](http://stillmaintained.com/Tomohiro/2nd_gig.png)](http://stillmaintained.com/Tomohiro/2nd_gig)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/Tomohiro/2nd_gig)
+[![Code Climate](https://codeclimate.com/github/Tomohiro/2nd_gig.png)](https://codeclimate.com/github/Tomohiro/2nd_gig)
 
 ![2nd GIG screenshot](screenshot.png)
 
