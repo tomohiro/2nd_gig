@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['tomohiro.t@gmail.com']
   gem.description   = 'Alternative GitHub IRC Gateway'
   gem.summary       = 'Alternative GitHub IRC Gateway'
-  gem.homepage      = ''
+  gem.homepage      = 'https://github.com/Tomohiro/2nd_gig'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
