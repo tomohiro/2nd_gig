@@ -53,10 +53,11 @@ Password  | GitHub news feed token
 
 ### Channels
 
-Channel   | Description         | Optional
---------- | ------------------- | ----
-`#github` | News feed timeline  | yes
-`#public` | Public timeline     | no
+Channel    | Description                    | Optional
+---------- | ------------------------------ | ---------
+`#github`  | News feed timeline             | yes
+`#public`  | Public timeline                | no
+`#private` | Private activity feed timeline | no
 
 
 LICENSE
