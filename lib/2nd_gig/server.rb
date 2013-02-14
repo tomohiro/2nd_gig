@@ -54,19 +54,19 @@ module SecondGig
 
     def on_join(message)
       super
-      channel_name = message.params.first
-      post(@nick, JOIN, channel_name)
+      channel = message.params.first
+      post(@nick, JOIN, channel)
 
-      if channel = get_channel_information(channel_name)
-        @monitor_threads[channel_name] = start_monitoring(channel_name, channel[:uri])
+      if channel_info = get_channel_information(channel)
+        @monitor_threads[channel] = start_monitoring(channel, channel_info[:uri])
       end
     end
 
     def on_part(message)
-      channel_name = message.params.first
-      post(@nick, PART, channel_name)
+      channel = message.params.first
+      post(@nick, PART, channel)
 
-      if @monitor_threads.fetch(channel_name, false)
+      if @monitor_threads.fetch(channel, false)
         @monitor_threads[channel].kill
       end
     end
