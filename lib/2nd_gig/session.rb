@@ -8,7 +8,7 @@ require 'net/irc'
 require 'nokogiri'
 
 module SecondGig
-  class GitHubIrcGateway < Net::IRC::Server::Session
+  class Session < Net::IRC::Server::Session
     EVENTS = {
       DownloadEvent: 6,
       GistEvent:     60,
