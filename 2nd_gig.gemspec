@@ -19,4 +19,5 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'net-irc'
   gem.add_runtime_dependency 'nokogiri'
+  gem.add_runtime_dependency 'slop'
 end
