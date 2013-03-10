@@ -3,21 +3,21 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require '2nd_gig/version'
 
-Gem::Specification.new do |gem|
-  gem.name          = '2nd_gig'
-  gem.version       = SecondGig::VERSION
-  gem.authors       = ['Tomohiro, TAIRA']
-  gem.email         = ['tomohiro.t@gmail.com']
-  gem.description   = 'Alternative GitHub IRC Gateway'
-  gem.summary       = 'Alternative GitHub IRC Gateway'
-  gem.homepage      = 'https://github.com/Tomohiro/2nd_gig'
+Gem::Specification.new do |spec|
+  spec.name          = '2nd_gig'
+  spec.version       = SecondGig::VERSION
+  spec.authors       = ['Tomohiro, TAIRA']
+  spec.email         = ['tomohiro.t@gmail.com']
+  spec.description   = 'Alternative GitHub IRC Gateway'
+  spec.summary       = 'Alternative GitHub IRC Gateway'
+  spec.homepage      = 'https://github.com/Tomohiro/2nd_gig'
 
-  gem.files         = `git ls-files`.split($/)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ['lib']
+  spec.files         = `git ls-files`.split($/)
+  spec.executables   = spec.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.require_paths = ['lib']
 
-  gem.add_runtime_dependency 'net-irc'
-  gem.add_runtime_dependency 'nokogiri'
-  gem.add_runtime_dependency 'slop'
+  spec.add_runtime_dependency 'net-irc'
+  spec.add_runtime_dependency 'nokogiri'
+  spec.add_runtime_dependency 'slop'
 end
