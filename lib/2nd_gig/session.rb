@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 # encoding: utf-8
 # Fork of https://github.com/cho45/net-irc/blob/master/examples/gig.rb
 
