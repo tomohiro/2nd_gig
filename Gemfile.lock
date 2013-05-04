@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    2nd_gig (0.0.2)
+    2nd_gig (0.0.3)
       net-irc
       nokogiri
       slop
@@ -10,8 +10,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     net-irc (0.0.9)
-    nokogiri (1.5.6)
-    slop (3.4.3)
+    nokogiri (1.5.9)
+    slop (3.4.4)
 
 PLATFORMS
   ruby
