@@ -1,10 +1,8 @@
-2nd GIG
-================================================================================
+
 
 Alternative GitHub IRC Gateway
 
 [![Stillmaintained](http://stillmaintained.com/Tomohiro/2nd_gig.png)](http://stillmaintained.com/Tomohiro/2nd_gig)
-[![Dependency Status](https://gemnasium.com/Tomohiro/2nd_gig.png)](https://gemnasium.com/Tomohiro/2nd_gig)
 [![Dependency Status](https://img.shields.io/gemnasium/Tomohiro/2nd_gig.svg?style=flat-square)](https://gemnasium.com/Tomohiro/2nd_gig)
 [![Code Climate](https://img.shields.io/codeclimate/github/Tomohiro/2nd_gig.svg?style=flat-square)](https://codeclimate.com/github/Tomohiro/2nd_gig)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
