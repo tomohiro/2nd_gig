@@ -1,12 +1,16 @@
-2nd GIG [![Stillmaintained](http://stillmaintained.com/Tomohiro/2nd_gig.png)](http://stillmaintained.com/Tomohiro/2nd_gig)
+2nd GIG
 ================================================================================
 
 Alternative GitHub IRC Gateway
 
+[![Stillmaintained](http://stillmaintained.com/Tomohiro/2nd_gig.png)](http://stillmaintained.com/Tomohiro/2nd_gig)
 [![Dependency Status](https://gemnasium.com/Tomohiro/2nd_gig.png)](https://gemnasium.com/Tomohiro/2nd_gig)
-[![Code Climate](https://codeclimate.com/github/Tomohiro/2nd_gig.png)](https://codeclimate.com/github/Tomohiro/2nd_gig)
+[![Dependency Status](https://img.shields.io/gemnasium/Tomohiro/2nd_gig.svg?style=flat-square)](https://gemnasium.com/Tomohiro/2nd_gig)
+[![Code Climate](https://img.shields.io/codeclimate/github/Tomohiro/2nd_gig.svg?style=flat-square)](https://codeclimate.com/github/Tomohiro/2nd_gig)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ![2nd GIG screenshot](screenshot.png)
+
 
 Requirements
 -------------------------------------------------------------------------------
@@ -70,6 +74,5 @@ Channel    | Description                    | Auto join
 LICENSE
 --------------------------------------------------------------------------------
 
-&copy; 2012 - 2013 Tomohiro TAIRA.
-This project is licensed under the MIT license.
+&copy; 2012 - 2015 Tomohiro TAIRA.
 See LICENSE for details.
