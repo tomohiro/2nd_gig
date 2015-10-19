@@ -42,7 +42,7 @@ $ bundle exec 2nd_gig
 Example: Change listen IP address, port.
 
 ```sh
-$ bundle exec 2nd_gig --server 192.168.10.1 --port 16667
+$ bundle exec 2nd_gig --host 192.168.10.1 --port 16667
 ```
 
 
